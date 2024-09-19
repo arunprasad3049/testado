@@ -1,1 +1,12 @@
-echo "test file"
+# azure-pipelines.yml
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Hello, Azure DevOps Pipeline!"
+  displayName: 'Echo message'
