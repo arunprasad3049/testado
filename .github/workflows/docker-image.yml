@@ -8,5 +8,5 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo "Hello, Azure DevOps Pipeline!"
+- script: echo "Hello, Azure poc DevOps Pipeline test!"
   displayName: 'Echo message'
